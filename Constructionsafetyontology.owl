@@ -1,0 +1,1414 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology">
+    <Prefix name="" IRI="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology"/>
+    <Prefix name="cso" IRI="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="PastSafetyEvents" IRI="http://www.semanticweb.org/akeempedro/ontologies/2021/PastSafetyEvents#"/>
+    <Declaration>
+        <Class IRI="#Accident_cause"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Accident_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Building_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Degree_of_injury"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HVAC_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Injury_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Project_cost"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Project_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Work_space"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Work_type"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#aerial_lift"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#alteration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#amputation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#asphyxiation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#backhoe"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#barrel_air_compressor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#blower"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#boom_lift"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#broken_bones"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bruising_or_contusion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#bulldozer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cable_lopper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cardiovascular_or_respiratory"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#cart"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#catch_point_or_puncture_action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#caterpillar_scraper"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#caught_in_or_between"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#chemical_action_reaction_or_exposure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#commercial_building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concrete_pump_hose"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#concrete_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#crane"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#crushing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#decking_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#defective_equipment_in_use"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#demolition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#demolition_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#dislocation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#distracting_action_by_others"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#drill"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#drill_press"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#driveway"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#earthwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electrical_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#electrocution"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#elevator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#environmental_factor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#equipment_inappropriate_for_operation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#excavation_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#excavator"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fall"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fatal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#finishing_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fire_burn"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#flying_object_action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fork_lift"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#foundation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#fracture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gas_cylinder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#gas_vapor_mist_fume_smoke_or_dust"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#glazing_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#head_trauma"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#heavy_equipment_and_vehicles"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#human_factor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inappropriate_position_for_task"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#indoor_spaces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#infrastructure-related"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inhalation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#inspection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#insufficient_or_lacking_engineering_controls"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#insufficient_or_lacking_house_keeping"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#insufficient_or_lacking_protective_work_clothing_and_equipment"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#insufficient_or_lacking_respiratory_protection"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#insufficient_or_lacking_work_practice_program"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#insulation_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#jackhammer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#laceration"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#ladder"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#loader"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lockout_procedure_malfunction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#lower_floor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#maintenance_or_repair"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#malfunction_in_securing_or_warning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#manufacturing_plant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#masonry"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#material_handling"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#material_handling_procedure_inappropriate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#material_or_equipment_handling_method"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mezzanine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#misjudgment_of_hazardous_situation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#mixer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#motor_vehicle"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#nail_gun"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#new_project"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#non-fatal"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#outdoor_site_area"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#outdoor_spaces"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#overhead_moving_or_falling_object_action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#overpressure_or_underpressure"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#patio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#pipe_wrench"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#piping_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#platforms"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#plumbing_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#puncture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#residential_building"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#road"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roadwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roller_compactor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roof"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#roofing_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#safety_devices_removed_or_inoperable"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#saw"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scaffold"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scaffolding_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#scissor_lift"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sewage_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sheathing_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sheer_point_action"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shingle_cutter"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#shock"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#sound_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#staircase"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#steelwork"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#strike"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#struck_against"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#struck_by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#temperature_tolerance_level"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#tools_and_machinery"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#trailer"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#truck"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#upper_floor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#waterproofing_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#weather_or_earthquake_etc"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#wood_work"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#work_surface_or_facility_layout_condition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#$10000000_to_$20000000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#$1000000_to_$5000000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#$250000_to_$500000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#$5000000_to_$10000000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#$500000_to_$1000000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#$50000_to_$250000"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#less_than_$50000"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_accident_cause"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_accident_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_building_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_degree_of_injury"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_equipment"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_injury_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_project_cost"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_project_type"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_work_space"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has_work_type"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#Date"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Description"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Source"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Title"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#HVAC_work"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#aerial_lift"/>
+        <Class IRI="#platforms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#alteration"/>
+        <Class IRI="#Project_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#amputation"/>
+        <Class IRI="#Injury_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#asphyxiation"/>
+        <Class IRI="#Injury_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#backhoe"/>
+        <Class IRI="#heavy_equipment_and_vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#barrel_air_compressor"/>
+        <Class IRI="#tools_and_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#blower"/>
+        <Class IRI="#tools_and_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#boom_lift"/>
+        <Class IRI="#platforms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#broken_bones"/>
+        <Class IRI="#Injury_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bruising_or_contusion"/>
+        <Class IRI="#Injury_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#bulldozer"/>
+        <Class IRI="#heavy_equipment_and_vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cable_lopper"/>
+        <Class IRI="#tools_and_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cardiovascular_or_respiratory"/>
+        <Class IRI="#Accident_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#cart"/>
+        <Class IRI="#tools_and_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#catch_point_or_puncture_action"/>
+        <Class IRI="#environmental_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#caterpillar_scraper"/>
+        <Class IRI="#heavy_equipment_and_vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#caught_in_or_between"/>
+        <Class IRI="#Accident_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#chemical_action_reaction_or_exposure"/>
+        <Class IRI="#environmental_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#commercial_building"/>
+        <Class IRI="#Building_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#concrete_pump_hose"/>
+        <Class IRI="#tools_and_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#concrete_work"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crane"/>
+        <Class IRI="#heavy_equipment_and_vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#crushing"/>
+        <Class IRI="#Injury_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#decking_work"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#defective_equipment_in_use"/>
+        <Class IRI="#human_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#demolition"/>
+        <Class IRI="#Project_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#demolition_work"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#dislocation"/>
+        <Class IRI="#Injury_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#distracting_action_by_others"/>
+        <Class IRI="#human_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#drill"/>
+        <Class IRI="#tools_and_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#drill_press"/>
+        <Class IRI="#tools_and_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#driveway"/>
+        <Class IRI="#outdoor_spaces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#earthwork"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#electrical_work"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#electrocution"/>
+        <Class IRI="#Injury_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#elevator"/>
+        <Class IRI="#indoor_spaces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#environmental_factor"/>
+        <Class IRI="#Accident_cause"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#equipment_inappropriate_for_operation"/>
+        <Class IRI="#human_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#excavation_work"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#excavator"/>
+        <Class IRI="#heavy_equipment_and_vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fall"/>
+        <Class IRI="#Accident_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fatal"/>
+        <Class IRI="#Degree_of_injury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#finishing_work"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fire_burn"/>
+        <Class IRI="#Injury_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#flying_object_action"/>
+        <Class IRI="#environmental_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fork_lift"/>
+        <Class IRI="#platforms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#foundation"/>
+        <Class IRI="#outdoor_spaces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#fracture"/>
+        <Class IRI="#Injury_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gas_cylinder"/>
+        <Class IRI="#tools_and_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#gas_vapor_mist_fume_smoke_or_dust"/>
+        <Class IRI="#environmental_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#glazing_work"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#head_trauma"/>
+        <Class IRI="#Injury_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#heavy_equipment_and_vehicles"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#human_factor"/>
+        <Class IRI="#Accident_cause"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inappropriate_position_for_task"/>
+        <Class IRI="#human_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#indoor_spaces"/>
+        <Class IRI="#Work_space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#infrastructure-related"/>
+        <Class IRI="#Building_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inhalation"/>
+        <Class IRI="#Accident_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#inspection"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#insufficient_or_lacking_engineering_controls"/>
+        <Class IRI="#human_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#insufficient_or_lacking_house_keeping"/>
+        <Class IRI="#human_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#insufficient_or_lacking_protective_work_clothing_and_equipment"/>
+        <Class IRI="#human_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#insufficient_or_lacking_respiratory_protection"/>
+        <Class IRI="#human_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#insufficient_or_lacking_work_practice_program"/>
+        <Class IRI="#human_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#insulation_work"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#jackhammer"/>
+        <Class IRI="#tools_and_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#laceration"/>
+        <Class IRI="#Injury_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#ladder"/>
+        <Class IRI="#tools_and_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#loader"/>
+        <Class IRI="#heavy_equipment_and_vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lockout_procedure_malfunction"/>
+        <Class IRI="#human_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#lower_floor"/>
+        <Class IRI="#indoor_spaces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#maintenance_or_repair"/>
+        <Class IRI="#Project_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#malfunction_in_securing_or_warning"/>
+        <Class IRI="#human_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#manufacturing_plant"/>
+        <Class IRI="#Building_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#masonry"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#material_handling"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#material_handling_procedure_inappropriate"/>
+        <Class IRI="#human_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#material_or_equipment_handling_method"/>
+        <Class IRI="#environmental_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mezzanine"/>
+        <Class IRI="#indoor_spaces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#misjudgment_of_hazardous_situation"/>
+        <Class IRI="#human_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#mixer"/>
+        <Class IRI="#tools_and_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#motor_vehicle"/>
+        <Class IRI="#heavy_equipment_and_vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#nail_gun"/>
+        <Class IRI="#tools_and_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#new_project"/>
+        <Class IRI="#Project_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#non-fatal"/>
+        <Class IRI="#Degree_of_injury"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#outdoor_site_area"/>
+        <Class IRI="#outdoor_spaces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#outdoor_spaces"/>
+        <Class IRI="#Work_space"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overhead_moving_or_falling_object_action"/>
+        <Class IRI="#environmental_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#overpressure_or_underpressure"/>
+        <Class IRI="#environmental_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#patio"/>
+        <Class IRI="#outdoor_spaces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#pipe_wrench"/>
+        <Class IRI="#tools_and_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#piping_work"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#platforms"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#plumbing_work"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#puncture"/>
+        <Class IRI="#Injury_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#residential_building"/>
+        <Class IRI="#Building_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#road"/>
+        <Class IRI="#outdoor_spaces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roadwork"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roller_compactor"/>
+        <Class IRI="#tools_and_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roof"/>
+        <Class IRI="#indoor_spaces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#roofing_work"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#safety_devices_removed_or_inoperable"/>
+        <Class IRI="#human_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#saw"/>
+        <Class IRI="#tools_and_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scaffold"/>
+        <Class IRI="#platforms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scaffolding_work"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#scissor_lift"/>
+        <Class IRI="#platforms"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sewage_work"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sheathing_work"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sheer_point_action"/>
+        <Class IRI="#environmental_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shingle_cutter"/>
+        <Class IRI="#tools_and_machinery"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#shock"/>
+        <Class IRI="#Accident_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#sound_level"/>
+        <Class IRI="#environmental_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#staircase"/>
+        <Class IRI="#indoor_spaces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#steelwork"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#strike"/>
+        <Class IRI="#Injury_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#struck_against"/>
+        <Class IRI="#Accident_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#struck_by"/>
+        <Class IRI="#Accident_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#temperature_tolerance_level"/>
+        <Class IRI="#environmental_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#tools_and_machinery"/>
+        <Class IRI="#Equipment"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#trailer"/>
+        <Class IRI="#heavy_equipment_and_vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#truck"/>
+        <Class IRI="#heavy_equipment_and_vehicles"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#upper_floor"/>
+        <Class IRI="#indoor_spaces"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#waterproofing_work"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#weather_or_earthquake_etc"/>
+        <Class IRI="#environmental_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#wood_work"/>
+        <Class IRI="#Work_type"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#work_surface_or_facility_layout_condition"/>
+        <Class IRI="#environmental_factor"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#$10000000_to_$20000000"/>
+        <Class IRI="#Project_cost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#$1000000_to_$5000000"/>
+        <Class IRI="#Project_cost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#$250000_to_$500000"/>
+        <Class IRI="#Project_cost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#$5000000_to_$10000000"/>
+        <Class IRI="#Project_cost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#$500000_to_$1000000"/>
+        <Class IRI="#Project_cost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#$50000_to_$250000"/>
+        <Class IRI="#Project_cost"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#less_than_$50000"/>
+        <Class IRI="#Project_cost"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#Accident_cause"/>
+        <Class IRI="#Accident_type"/>
+        <Class IRI="#Building_type"/>
+        <Class IRI="#Degree_of_injury"/>
+        <Class IRI="#Equipment"/>
+        <Class IRI="#Injury_type"/>
+        <Class IRI="#Project_cost"/>
+        <Class IRI="#Project_type"/>
+        <Class IRI="#Work_space"/>
+        <Class IRI="#Work_type"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HVAC_work"/>
+        <Class IRI="#concrete_work"/>
+        <Class IRI="#decking_work"/>
+        <Class IRI="#demolition_work"/>
+        <Class IRI="#earthwork"/>
+        <Class IRI="#electrical_work"/>
+        <Class IRI="#excavation_work"/>
+        <Class IRI="#finishing_work"/>
+        <Class IRI="#glazing_work"/>
+        <Class IRI="#inspection"/>
+        <Class IRI="#insulation_work"/>
+        <Class IRI="#masonry"/>
+        <Class IRI="#material_handling"/>
+        <Class IRI="#piping_work"/>
+        <Class IRI="#plumbing_work"/>
+        <Class IRI="#roadwork"/>
+        <Class IRI="#roofing_work"/>
+        <Class IRI="#scaffolding_work"/>
+        <Class IRI="#sewage_work"/>
+        <Class IRI="#sheathing_work"/>
+        <Class IRI="#steelwork"/>
+        <Class IRI="#waterproofing_work"/>
+        <Class IRI="#wood_work"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#aerial_lift"/>
+        <Class IRI="#boom_lift"/>
+        <Class IRI="#fork_lift"/>
+        <Class IRI="#scaffold"/>
+        <Class IRI="#scissor_lift"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#alteration"/>
+        <Class IRI="#demolition"/>
+        <Class IRI="#maintenance_or_repair"/>
+        <Class IRI="#new_project"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#amputation"/>
+        <Class IRI="#asphyxiation"/>
+        <Class IRI="#broken_bones"/>
+        <Class IRI="#bruising_or_contusion"/>
+        <Class IRI="#crushing"/>
+        <Class IRI="#dislocation"/>
+        <Class IRI="#fire_burn"/>
+        <Class IRI="#fracture"/>
+        <Class IRI="#head_trauma"/>
+        <Class IRI="#laceration"/>
+        <Class IRI="#strike"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#backhoe"/>
+        <Class IRI="#bulldozer"/>
+        <Class IRI="#caterpillar_scraper"/>
+        <Class IRI="#crane"/>
+        <Class IRI="#excavator"/>
+        <Class IRI="#loader"/>
+        <Class IRI="#motor_vehicle"/>
+        <Class IRI="#trailer"/>
+        <Class IRI="#truck"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#barrel_air_compressor"/>
+        <Class IRI="#blower"/>
+        <Class IRI="#cable_lopper"/>
+        <Class IRI="#cart"/>
+        <Class IRI="#concrete_pump_hose"/>
+        <Class IRI="#drill"/>
+        <Class IRI="#drill_press"/>
+        <Class IRI="#gas_cylinder"/>
+        <Class IRI="#jackhammer"/>
+        <Class IRI="#ladder"/>
+        <Class IRI="#mixer"/>
+        <Class IRI="#nail_gun"/>
+        <Class IRI="#pipe_wrench"/>
+        <Class IRI="#roller_compactor"/>
+        <Class IRI="#saw"/>
+        <Class IRI="#shingle_cutter"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#commercial_building"/>
+        <Class IRI="#infrastructure-related"/>
+        <Class IRI="#manufacturing_plant"/>
+        <Class IRI="#residential_building"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#driveway"/>
+        <Class IRI="#foundation"/>
+        <Class IRI="#outdoor_site_area"/>
+        <Class IRI="#patio"/>
+        <Class IRI="#road"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#elevator"/>
+        <Class IRI="#lower_floor"/>
+        <Class IRI="#mezzanine"/>
+        <Class IRI="#roof"/>
+        <Class IRI="#staircase"/>
+        <Class IRI="#upper_floor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#environmental_factor"/>
+        <Class IRI="#human_factor"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#fatal"/>
+        <Class IRI="#non-fatal"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#heavy_equipment_and_vehicles"/>
+        <Class IRI="#platforms"/>
+        <Class IRI="#tools_and_machinery"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#indoor_spaces"/>
+        <Class IRI="#outdoor_spaces"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#$10000000_to_$20000000"/>
+        <Class IRI="#$1000000_to_$5000000"/>
+        <Class IRI="#$250000_to_$500000"/>
+        <Class IRI="#$5000000_to_$10000000"/>
+        <Class IRI="#$500000_to_$1000000"/>
+        <Class IRI="#$50000_to_$250000"/>
+        <Class IRI="#less_than_$50000"/>
+    </DisjointClasses>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_accident_cause"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_accident_type"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_building_type"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_degree_of_injury"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_equipment"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_injury_type"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_project_cost"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_project_type"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_work_space"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#has_work_type"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_accident_cause"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_accident_type"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_building_type"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_degree_of_injury"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_equipment"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_injury_type"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_project_cost"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_project_type"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_work_space"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has_work_type"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_accident_cause"/>
+        <Class IRI="#Accident_cause"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_accident_type"/>
+        <Class IRI="#Accident_type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_building_type"/>
+        <Class IRI="#Building_type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_degree_of_injury"/>
+        <Class IRI="#Degree_of_injury"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_equipment"/>
+        <Class IRI="#Equipment"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_injury_type"/>
+        <Class IRI="#Injury_type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_project_cost"/>
+        <Class IRI="#Project_cost"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_project_type"/>
+        <Class IRI="#Project_type"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_work_space"/>
+        <Class IRI="#Work_space"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has_work_type"/>
+        <Class IRI="#Work_type"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#Date"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Description"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Source"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Title"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#Date"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Description"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Source"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Title"/>
+        <Class abbreviatedIRI="owl:Thing"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#Date"/>
+        <Datatype abbreviatedIRI="xsd:dateTime"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Description"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Source"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Accident_cause</IRI>
+        <Literal xml:lang="en">This class denotes accident cause</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Accident_type</IRI>
+        <Literal xml:lang="en">This class denotes accident type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Building_type</IRI>
+        <Literal xml:lang="en">This class denotes building type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Date</IRI>
+        <Literal xml:lang="en">This data property denotes the date of the accident</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Degree_of_injury</IRI>
+        <Literal xml:lang="en">This class denotes degree of injury</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Equipment</IRI>
+        <Literal xml:lang="en">This class denotes equipment type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Injury_type</IRI>
+        <Literal xml:lang="en">This class denotes injury type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Project_cost</IRI>
+        <Literal xml:lang="en">This class denotes project cost</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Project_type</IRI>
+        <Literal xml:lang="en">This class denotes project type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Work_space</IRI>
+        <Literal xml:lang="en">This class denotes work space</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#Work_type</IRI>
+        <Literal xml:lang="en">This class denotes work type</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>#fall</IRI>
+        <Literal>Class for fall accidents in construction industry</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Description</IRI>
+        <Literal xml:lang="en">This data property denotes the description of accident case</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Source</IRI>
+        <Literal xml:lang="en">This data property denotes the source of accident case</Literal>
+    </AnnotationAssertion>
+    <AnnotationAssertion>
+        <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+        <IRI>http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Title</IRI>
+        <Literal xml:lang="en">This data property denotes the title of accident case</Literal>
+    </AnnotationAssertion>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
