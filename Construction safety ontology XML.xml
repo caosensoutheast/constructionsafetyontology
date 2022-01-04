@@ -1,0 +1,1524 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology"
+     xml:base="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology"
+     xmlns:cso="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:PastSafetyEvents="http://www.semanticweb.org/akeempedro/ontologies/2021/PastSafetyEvents#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_accident_cause -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_accident_cause">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Accident_cause"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_accident_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_accident_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Accident_type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_building_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_building_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Building_type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_degree_of_injury -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_degree_of_injury">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Degree_of_injury"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_equipment -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_equipment">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Equipment"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_injury_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_injury_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Injury_type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_project_cost -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_project_cost">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_cost"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_project_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_project_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_work_space -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_work_space">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_space"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_work_type -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#has_work_type">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Date -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Date">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:comment xml:lang="en">This data property denotes the date of the accident</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Description -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Description">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">This data property denotes the description of accident case</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Source -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Source">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#anyURI"/>
+        <rdfs:comment xml:lang="en">This data property denotes the source of accident case</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Title -->
+
+    <owl:DatatypeProperty rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/safetyontology#Title">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#string"/>
+        <rdfs:comment xml:lang="en">This data property denotes the title of accident case</rdfs:comment>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Accident_cause -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Accident_cause">
+        <rdfs:comment xml:lang="en">This class denotes accident cause</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Accident_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Accident_type">
+        <rdfs:comment xml:lang="en">This class denotes accident type</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Building_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Building_type">
+        <rdfs:comment xml:lang="en">This class denotes building type</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Degree_of_injury -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Degree_of_injury">
+        <rdfs:comment xml:lang="en">This class denotes degree of injury</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Equipment">
+        <rdfs:comment xml:lang="en">This class denotes equipment type</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#HVAC_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#HVAC_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Injury_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Injury_type">
+        <rdfs:comment xml:lang="en">This class denotes injury type</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_cost -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_cost">
+        <rdfs:comment xml:lang="en">This class denotes project cost</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_type">
+        <rdfs:comment xml:lang="en">This class denotes project type</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_space -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_space">
+        <rdfs:comment xml:lang="en">This class denotes work space</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type">
+        <rdfs:comment xml:lang="en">This class denotes work type</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#aerial_lift -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#aerial_lift">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#platforms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#alteration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#alteration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#amputation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#amputation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Injury_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#asphyxiation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#asphyxiation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Injury_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#backhoe -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#backhoe">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#heavy_equipment_and_vehicles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#barrel_air_compressor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#barrel_air_compressor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#blower -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#blower">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#boom_lift -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#boom_lift">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#platforms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#broken_bones -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#broken_bones">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Injury_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#bruising_or_contusion -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#bruising_or_contusion">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Injury_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#bulldozer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#bulldozer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#heavy_equipment_and_vehicles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#cable_lopper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#cable_lopper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#cardiovascular_or_respiratory -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#cardiovascular_or_respiratory">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Accident_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#cart -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#cart">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#catch_point_or_puncture_action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#catch_point_or_puncture_action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#environmental_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#caterpillar_scraper -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#caterpillar_scraper">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#heavy_equipment_and_vehicles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#caught_in_or_between -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#caught_in_or_between">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Accident_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#chemical_action_reaction_or_exposure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#chemical_action_reaction_or_exposure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#environmental_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#commercial_building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#commercial_building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Building_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#concrete_pump_hose -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#concrete_pump_hose">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#concrete_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#concrete_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#crane -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#crane">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#heavy_equipment_and_vehicles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#crushing -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#crushing">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Injury_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#decking_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#decking_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#defective_equipment_in_use -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#defective_equipment_in_use">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#human_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#demolition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#demolition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#demolition_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#demolition_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#dislocation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#dislocation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Injury_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#distracting_action_by_others -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#distracting_action_by_others">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#human_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#drill -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#drill">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#drill_press -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#drill_press">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#driveway -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#driveway">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#outdoor_spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#earthwork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#earthwork">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#electrical_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#electrical_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#electrocution -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#electrocution">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Injury_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#elevator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#elevator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#indoor_spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#environmental_factor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#environmental_factor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Accident_cause"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#human_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#equipment_inappropriate_for_operation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#equipment_inappropriate_for_operation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#human_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#excavation_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#excavation_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#excavator -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#excavator">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#heavy_equipment_and_vehicles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#fall -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#fall">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Accident_type"/>
+        <rdfs:comment>Class for fall accidents in construction industry</rdfs:comment>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#fatal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#fatal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Degree_of_injury"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#non-fatal"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#finishing_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#finishing_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#fire_burn -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#fire_burn">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Injury_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#flying_object_action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#flying_object_action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#environmental_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#fork_lift -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#fork_lift">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#platforms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#foundation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#foundation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#outdoor_spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#fracture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#fracture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Injury_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#gas_cylinder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#gas_cylinder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#gas_vapor_mist_fume_smoke_or_dust -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#gas_vapor_mist_fume_smoke_or_dust">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#environmental_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#glazing_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#glazing_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#head_trauma -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#head_trauma">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Injury_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#heavy_equipment_and_vehicles -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#heavy_equipment_and_vehicles">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#human_factor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#human_factor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Accident_cause"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#inappropriate_position_for_task -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#inappropriate_position_for_task">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#human_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#indoor_spaces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#indoor_spaces">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_space"/>
+        <owl:disjointWith rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#outdoor_spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#infrastructure-related -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#infrastructure-related">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Building_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#inhalation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#inhalation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Accident_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#inspection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#inspection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#insufficient_or_lacking_engineering_controls -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#insufficient_or_lacking_engineering_controls">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#human_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#insufficient_or_lacking_house_keeping -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#insufficient_or_lacking_house_keeping">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#human_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#insufficient_or_lacking_protective_work_clothing_and_equipment -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#insufficient_or_lacking_protective_work_clothing_and_equipment">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#human_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#insufficient_or_lacking_respiratory_protection -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#insufficient_or_lacking_respiratory_protection">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#human_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#insufficient_or_lacking_work_practice_program -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#insufficient_or_lacking_work_practice_program">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#human_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#insulation_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#insulation_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#jackhammer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#jackhammer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#laceration -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#laceration">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Injury_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#ladder -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#ladder">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#loader -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#loader">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#heavy_equipment_and_vehicles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#lockout_procedure_malfunction -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#lockout_procedure_malfunction">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#human_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#lower_floor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#lower_floor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#indoor_spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#maintenance_or_repair -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#maintenance_or_repair">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#malfunction_in_securing_or_warning -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#malfunction_in_securing_or_warning">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#human_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#manufacturing_plant -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#manufacturing_plant">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Building_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#masonry -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#masonry">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#material_handling -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#material_handling">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#material_handling_procedure_inappropriate -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#material_handling_procedure_inappropriate">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#human_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#material_or_equipment_handling_method -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#material_or_equipment_handling_method">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#environmental_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#mezzanine -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#mezzanine">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#indoor_spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#misjudgment_of_hazardous_situation -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#misjudgment_of_hazardous_situation">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#human_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#mixer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#mixer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#motor_vehicle -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#motor_vehicle">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#heavy_equipment_and_vehicles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#nail_gun -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#nail_gun">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#new_project -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#new_project">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#non-fatal -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#non-fatal">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Degree_of_injury"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#outdoor_site_area -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#outdoor_site_area">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#outdoor_spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#outdoor_spaces -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#outdoor_spaces">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_space"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#overhead_moving_or_falling_object_action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#overhead_moving_or_falling_object_action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#environmental_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#overpressure_or_underpressure -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#overpressure_or_underpressure">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#environmental_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#patio -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#patio">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#outdoor_spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#pipe_wrench -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#pipe_wrench">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#piping_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#piping_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#platforms -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#platforms">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#plumbing_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#plumbing_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#puncture -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#puncture">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Injury_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#residential_building -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#residential_building">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Building_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#road -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#road">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#outdoor_spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#roadwork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#roadwork">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#roller_compactor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#roller_compactor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#roof -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#roof">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#indoor_spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#roofing_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#roofing_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#safety_devices_removed_or_inoperable -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#safety_devices_removed_or_inoperable">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#human_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#saw -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#saw">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#scaffold -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#scaffold">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#platforms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#scaffolding_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#scaffolding_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#scissor_lift -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#scissor_lift">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#platforms"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#sewage_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#sewage_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#sheathing_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#sheathing_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#sheer_point_action -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#sheer_point_action">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#environmental_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#shingle_cutter -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#shingle_cutter">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#shock -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#shock">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Accident_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#sound_level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#sound_level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#environmental_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#staircase -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#staircase">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#indoor_spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#steelwork -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#steelwork">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#strike -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#strike">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Injury_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#struck_against -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#struck_against">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Accident_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#struck_by -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#struck_by">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Accident_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#temperature_tolerance_level -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#temperature_tolerance_level">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#environmental_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Equipment"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#trailer -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#trailer">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#heavy_equipment_and_vehicles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#truck -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#truck">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#heavy_equipment_and_vehicles"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#upper_floor -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#upper_floor">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#indoor_spaces"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#waterproofing_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#waterproofing_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#weather_or_earthquake_etc -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#weather_or_earthquake_etc">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#environmental_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#wood_work -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#wood_work">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#work_surface_or_facility_layout_condition -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#work_surface_or_facility_layout_condition">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#environmental_factor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$10000000_to_$20000000 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$10000000_to_$20000000">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$1000000_to_$5000000 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$1000000_to_$5000000">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$250000_to_$500000 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$250000_to_$500000">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$5000000_to_$10000000 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$5000000_to_$10000000">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$500000_to_$1000000 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$500000_to_$1000000">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$50000_to_$250000 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$50000_to_$250000">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_cost"/>
+    </owl:Class>
+    
+
+
+    <!-- http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#less_than_$50000 -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#less_than_$50000">
+        <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_cost"/>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // General axioms
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Accident_cause"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Accident_type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Building_type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Degree_of_injury"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Equipment"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Injury_type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_cost"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Project_type"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_space"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#Work_type"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#HVAC_work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#concrete_work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#decking_work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#demolition_work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#earthwork"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#electrical_work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#excavation_work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#finishing_work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#glazing_work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#inspection"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#insulation_work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#masonry"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#material_handling"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#piping_work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#plumbing_work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#roadwork"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#roofing_work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#scaffolding_work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#sewage_work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#sheathing_work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#steelwork"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#waterproofing_work"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#wood_work"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#aerial_lift"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#boom_lift"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#fork_lift"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#scaffold"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#scissor_lift"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#alteration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#demolition"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#maintenance_or_repair"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#new_project"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#amputation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#asphyxiation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#broken_bones"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#bruising_or_contusion"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#crushing"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#dislocation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#fire_burn"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#fracture"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#head_trauma"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#laceration"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#strike"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#backhoe"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#bulldozer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#caterpillar_scraper"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#crane"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#excavator"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#loader"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#motor_vehicle"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#trailer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#truck"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#barrel_air_compressor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#blower"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#cable_lopper"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#cart"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#concrete_pump_hose"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#drill"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#drill_press"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#gas_cylinder"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#jackhammer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#ladder"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#mixer"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#nail_gun"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#pipe_wrench"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#roller_compactor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#saw"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#shingle_cutter"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#commercial_building"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#infrastructure-related"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#manufacturing_plant"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#residential_building"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#driveway"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#foundation"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#outdoor_site_area"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#patio"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#road"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#elevator"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#lower_floor"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#mezzanine"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#roof"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#staircase"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#upper_floor"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#heavy_equipment_and_vehicles"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#platforms"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#tools_and_machinery"/>
+        </owl:members>
+    </rdf:Description>
+    <rdf:Description>
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#AllDisjointClasses"/>
+        <owl:members rdf:parseType="Collection">
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$10000000_to_$20000000"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$1000000_to_$5000000"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$250000_to_$500000"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$5000000_to_$10000000"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$500000_to_$1000000"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#$50000_to_$250000"/>
+            <rdf:Description rdf:about="http://www.semanticweb.org/akeempedro/ontologies/2021/7/safetyontology#less_than_$50000"/>
+        </owl:members>
+    </rdf:Description>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
